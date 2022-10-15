@@ -1,0 +1,361 @@
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.appTitleLabel {
+  cursor: pointer;
+  position: relative;
+  font-weight: 700;
+  display: inline-block;
+}
+.frameDiv {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-4xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.homeIcon {
+  position: relative;
+  width: 25px;
+  height: 19.44px;
+  flex-shrink: 0;
+}
+.dashboard {
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  color: inherit;
+}
+.customersB,
+.debtorsIcon {
+  position: relative;
+  width: 25px;
+  height: 17.5px;
+  flex-shrink: 0;
+}
+.customersB {
+  display: inline-block;
+  width: 140px;
+  height: 25px;
+}
+.customerA {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  cursor: pointer;
+  color: var(--color-blue-100);
+}
+.addDebtIcon,
+.managementIcon {
+  position: relative;
+  width: 25px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.addDebtIcon {
+  width: 21.88px;
+  height: 21.88px;
+}
+.addDebtButton {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  color: inherit;
+  cursor: pointer;
+}
+.linksAndTitleDiv,
+.linksDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.linksDiv {
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-blue-200);
+}
+.linksAndTitleDiv {
+  align-self: stretch;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+}
+.logoutB {
+  position: relative;
+  display: inline-block;
+}
+.logoutButtonDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-base);
+  color: var(--color-blue-200);
+  cursor: pointer;
+}
+.fixedSidebarDiv,
+.sidebarDiv {
+  border-radius: 0 var(--br-md) var(--br-md) 0;
+  display: flex;
+}
+.sidebarDiv {
+  flex: 1;
+  height: 1020px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.fixedSidebarDiv {
+  align-self: stretch;
+  background-color: var(--color-gray-100);
+  width: 263px;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 0 0 var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  opacity: 0;
+}
+.fixedSidebarDiv.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-left;
+}
+.toggleSideBarButtonIcon {
+  position: relative;
+  width: 21.88px;
+  height: 19.14px;
+  flex-shrink: 0;
+}
+.addDebtButton1,
+.drawerButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs);
+  background-color: transparent;
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+.drawerButton {
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.addDebtButton1 {
+  flex-direction: row;
+}
+.addDebtButton1,
+.debtsButtonA,
+.leftButtonsDiv {
+  display: flex;
+  justify-content: flex-start;
+}
+.debtsButtonA {
+  cursor: pointer;
+  text-decoration: none;
+  flex-direction: column;
+  padding: var(--padding-4xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+.leftButtonsDiv {
+  width: 87px;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: center;
+}
+.vectorIcon {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+}
+.avatarButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navMenuIcon {
+  position: relative;
+  width: 24.22px;
+  height: 7.03px;
+  flex-shrink: 0;
+}
+.frameButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs);
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navigationButtonsDiv,
+.rightButtonsDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.rightButtonsDiv {
+  width: 100.22px;
+  flex-shrink: 0;
+}
+.navigationButtonsDiv {
+  align-self: stretch;
+}
+.frameH1,
+.navigationDiv {
+  display: flex;
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+.navigationDiv {
+  align-self: stretch;
+  border-radius: var(--br-md) 0 0 var(--br-md);
+  background-color: var(--color-gray-100);
+  height: 80px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-xl);
+  justify-content: space-between;
+}
+.frameH1 {
+  margin: 0;
+  flex-direction: row;
+  padding: var(--padding-4xs);
+  justify-content: flex-start;
+  font-size: inherit;
+  font-family: inherit;
+}
+.addCustomerB {
+  position: relative;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  font-family: var(--font-poppins);
+  color: var(--color-gray-400);
+  text-align: center;
+}
+.frameButton1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-md) var(--padding-7xs);
+  background-color: var(--color-gray-300);
+  border-radius: var(--br-md);
+  width: 240px;
+  height: 56px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.contentDiv,
+.contentDiv1 {
+  align-self: stretch;
+  flex-direction: column;
+}
+.contentDiv1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.contentDiv {
+  padding: 0 var(--padding-md) 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.contentDiv,
+.customersDiv,
+.mainDiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mainDiv {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+}
+.customersDiv {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  flex-direction: row;
+  gap: var(--gap-lg);
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-500);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1400px) {
+  .fixedSidebarDiv {
+    display: flex;
+  }
+  .drawerButton {
+    display: none;
+  }
+}
+@media screen and (max-width: 590px) {
+  .fixedSidebarDiv {
+    display: none;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-sizing: border-box;
+  }
+  .drawerButton {
+    display: flex;
+  }
+}
+@media screen and (max-width: 428px) {
+  .fixedSidebarDiv {
+    padding-top: 0;
+    padding-bottom: 0;
+    box-sizing: border-box;
+  }
+  .drawerButton {
+    display: flex;
+  }
+}
+@media screen and (max-width: 890px) {
+  .fixedSidebarDiv {
+    display: none;
+  }
+  .drawerButton {
+    display: flex;
+  }
+  .navigationDiv {
+    border-radius: 0;
+  }
+}

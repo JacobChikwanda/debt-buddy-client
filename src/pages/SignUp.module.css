@@ -1,0 +1,178 @@
+.debtBuddyP {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.yourNumberOneDebtManager {
+  margin: 0;
+  font-size: var(--font-size-sm);
+}
+.appTitleB {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+}
+.frameDiv,
+.frameDiv1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.frameDiv {
+  padding: var(--padding-lg) var(--padding-3xs);
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+.frameDiv1 {
+  padding: var(--padding-4xs);
+  align-items: flex-start;
+  justify-content: center;
+}
+.firstNameInput {
+  border: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 358px;
+  flex-shrink: 0;
+}
+.frameDiv2 {
+  align-self: stretch;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-100);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-md) var(--padding-2xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.lastNameInput {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  display: inline-block;
+  width: 345px;
+}
+.emailInput,
+.lastNameInput,
+.passwordInput {
+  border: 0;
+  background-color: transparent;
+  text-align: left;
+  flex-shrink: 0;
+}
+.emailInput {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  display: inline-block;
+  width: 348px;
+}
+.passwordInput {
+  width: 343px;
+}
+.createDiv,
+.passwordInput,
+.retypePasswordInput {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  display: inline-block;
+}
+.retypePasswordInput {
+  border: 0;
+  background-color: transparent;
+  text-align: left;
+  width: 350px;
+  flex-shrink: 0;
+}
+.createDiv {
+  text-align: center;
+}
+.frameButton,
+.frameButton1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-md) var(--padding-7xs);
+  background-color: var(--color-beige-200);
+  flex: 1;
+  border-radius: var(--br-md);
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.frameButton1 {
+  padding: var(--padding-md) var(--padding-2xl);
+  background-color: var(--color-gray-200);
+}
+.frameDiv7,
+.loginFormDiv,
+.signUpDiv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameDiv7 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.loginFormDiv,
+.signUpDiv {
+  background-color: var(--color-white);
+  flex-direction: column;
+}
+.loginFormDiv {
+  border-radius: var(--br-md);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 450px;
+  padding: 0 var(--padding-md) var(--padding-md);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-xl);
+}
+.signUpDiv {
+  position: relative;
+  width: 100%;
+  height: 1036px;
+  gap: 40px;
+  text-align: center;
+  font-size: var(--font-size-2xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 428px) {
+  .frameButton,
+  .frameButton1 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .frameDiv7 {
+    flex-direction: column;
+  }
+  .loginFormDiv {
+    width: 300px;
+  }
+  .signUpDiv {
+    padding-left: var(--padding-3xl);
+    padding-right: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 2000px) {
+  .loginFormDiv {
+    flex-direction: column;
+    overflow: hidden;
+  }
+}

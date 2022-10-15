@@ -1,0 +1,197 @@
+.gladYouAreSigningUp {
+  position: relative;
+  display: inline-block;
+}
+.frameDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-4xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+}
+.firstNameInput {
+  border: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 197.5px;
+  flex-shrink: 0;
+  outline: none;
+}
+.frameDiv2 {
+  flex: 1;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-100);
+  padding: var(--padding-md) var(--padding-2xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv1,
+.frameDiv2,
+.frameDiv3 {
+  display: flex;
+  flex-direction: row;
+}
+.frameDiv3 {
+  flex: 1;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-100);
+  padding: var(--padding-md) var(--padding-2xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.frameDiv1 {
+  align-self: stretch;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.emailInput {
+  border: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 441px;
+  flex-shrink: 0;
+  outline: none;
+}
+.frameDiv4 {
+  align-self: stretch;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-100);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-md) var(--padding-xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.passwordInput {
+  border: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 423px;
+  flex-shrink: 0;
+  outline: none;
+}
+.frameDiv5 {
+  align-self: stretch;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-100);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-md) var(--padding-2xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.createDiv {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+}
+.frameButton,
+.frameButton1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-md) var(--padding-7xs);
+  background-color: var(--color-beige-100);
+  flex: 1;
+  border-radius: var(--br-md);
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.frameButton1 {
+  padding: var(--padding-md) var(--padding-2xl);
+  background-color: var(--color-gray-200);
+}
+.frameDiv6,
+.signUpForm {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameDiv6 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-xs);
+}
+.signUpForm {
+  position: relative;
+  border-radius: var(--br-md);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 511px;
+  flex-direction: column;
+  padding: 0 var(--padding-md) var(--padding-md);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1400px) {
+  .frameDiv2,
+  .frameDiv3 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .frameDiv1 {
+    flex-direction: column;
+  }
+  .signUpForm {
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .frameDiv2,
+  .frameDiv3 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .frameDiv1 {
+    flex-direction: column;
+    gap: 5;
+  }
+}
+@media screen and (max-width: 2000px) {
+  .frameDiv2,
+  .frameDiv3 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .frameDiv1,
+  .signUpForm {
+    flex-direction: column;
+  }
+  .signUpForm {
+    overflow: hidden;
+  }
+}
