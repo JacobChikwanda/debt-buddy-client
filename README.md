@@ -56,6 +56,10 @@ To help you better understand the application I will answer the following questi
 
     I used this to build most of the frontend components as well as work on the responsivesness of the application.
 
+    **MySQL**
+
+    I used this as a means of data persistence.
+
 3. Some challenges I faced?
 
     **Learning Locofy**
