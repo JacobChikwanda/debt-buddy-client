@@ -70,7 +70,7 @@ const CustomerForm: FunctionComponent<CustomerFormType> = ({ onClose }) => {
   }
 
   return (
-    <form className={styles.customerFormDiv}>
+    <div className={styles.customerFormDiv}>
       <div className={styles.frameDiv}>
         <b className={styles.customerDetailsB}>Customer Details</b>
       </div>
@@ -131,7 +131,7 @@ const CustomerForm: FunctionComponent<CustomerFormType> = ({ onClose }) => {
           <div className={styles.addDiv}>Cancel</div>
         </button>
       </div>
-    </form>
+    </div>
   );
 };
 
