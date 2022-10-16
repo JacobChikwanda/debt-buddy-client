@@ -69,7 +69,7 @@ const DebtForm = ({ onClose }) => {
     .then(res => {
       if (res.data.success) {
         alertPopup(res.data)
-        navigate("/debts1");
+        navigate("/dashboard");
       } else {
         alertPopup(res.data)
       }
