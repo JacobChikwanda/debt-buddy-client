@@ -2,6 +2,10 @@
 
 Debt buddy is a web application designed to help business's as well as inidividuals involved in lending money to their clients.
 
+### click [here](https://www.locofy.ai/preview/DdSmGrWPFZAMIgw5XLbpcTizwGfBEQDNlE58NlSXWC2b5A7aHcvlUNCm95rrtlAGan%2F9eId2B%2FBOVT5OOP0ZpZT8gjZa4OdjCw%3D%3D/test) to preview in locofy.
+
+### click [here](https://debt-buddy-client.vercel.app/) to open web app.
+
 ## The Apps Description
 
 To help you better understand the application I will answer the following questions:
@@ -78,11 +82,11 @@ To help you better understand the application I will answer the following questi
 
 ## How to Run the Application
     
-To run the application simply click this [link]('https://debt-buddy-client.vercel.app/').
+To run the application simply click this [link](https://debt-buddy-client.vercel.app/).
 
 ## How to use the Application
 
 1. Sign Up if you dont already have an account.
 2. Login.
 
-Watch this video [here]()
+Watch this video [here](https://youtu.be/VkcerxgCFp8)
